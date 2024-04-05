@@ -17,13 +17,13 @@ if(sensor_value>smoke_threshold) //compare sesnor value with threshold value
   
 {
  tone(buzzer,1000,100); //ON the buzzer
-  Serial.print("Smoke deteted! sensor value:  "); //print on serial monitor
+  Serial.print("Smoke detected! sensor value:  "); //print on serial monitor
   Serial.println(sensor_value);
 }
 else
 {
   noTone(buzzer); //OFF the buzzer
-  Serial.print("No smaoke!! sensor value:"); //print on seriall monitor
+  Serial.print("No smoke!! sensor value:"); //print on serial monitor
   Serial.println(sensor_value);
 }
 delay(1000); //wait
