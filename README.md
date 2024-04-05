@@ -1,2 +1,2 @@
 # Gas-sensor
-how to operate gas sensor with arduino uno
+How to operate gas sensor with Arduino uno
